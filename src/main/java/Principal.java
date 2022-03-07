@@ -37,11 +37,11 @@ public class Principal {
 //        var elementosPares = new ElementosPares(vetor, x);
 //        System.out.println("Numero de pares: " + elementosPares.calculaPares());
 
-//        Scanner Teclado = new Scanner(System.in);
-//        System.out.println("Digite uma frase: ");
-//        String s = Teclado.nextLine();
-//        var encriptaTexto = new EncriptaTexto(s);
-//        System.out.println(encriptaTexto.encriptar());
+        Scanner Teclado = new Scanner(System.in);
+        System.out.println("Digite uma frase: ");
+        String s = Teclado.nextLine();
+        var encriptaTexto = new EncriptaTexto(s);
+        System.out.println(encriptaTexto.encriptar());
 
     }
 }

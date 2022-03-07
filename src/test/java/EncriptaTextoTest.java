@@ -16,7 +16,7 @@ import static org.junit.jupiter.api.Assertions.*;
  * @author Thiago
  */
 public class EncriptaTextoTest {
-  
+ 
     @Test
     public void testaFraseComRaizExata() {
         String s = "parapente";
@@ -25,7 +25,7 @@ public class EncriptaTextoTest {
     }
     @Test
     public void testaFraseComRaizNaoExata() {
-        String s = "tenha um bom dia";
+        String s = "mozao e lindo";
         var encriptaTexto = new EncriptaTexto(s);
         assertEquals("taoa eum nmd hbi ", encriptaTexto.encriptar());
     }
@@ -38,6 +38,5 @@ public class EncriptaTextoTest {
         String s = "";
         var encriptaTexto = new EncriptaTexto(s);
         assertEquals("", encriptaTexto.encriptar());
-       
     }
 }
